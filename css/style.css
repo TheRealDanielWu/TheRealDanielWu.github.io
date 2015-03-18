@@ -1,0 +1,262 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    font-size: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.625em;
+    font-weight: 300;
+}
+a {
+    font-size: 1em;
+    line-height: 1.625rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: lowercase;
+}
+h1 {
+    font-size: 5rem;
+    line-height: 7rem;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    margin-bottom: 1.7rem;
+}
+h3 {
+    font-size: 5rem;
+    line-height: 2.25rem;
+}
+h4 {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h5 {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 0.75rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+ul {
+    list-style: none
+}
+li {
+    margin-top: 1.625em;
+}
+li a {
+    display: inline;
+}
+hr {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+box-shadow {
+    box-shadow: 10px 10px 5px #888888;
+}
+/*
+ * -------------------------------------------------------------------
+ *   Layouts
+ * -------------------------------------------------------------------
+ */
+
+.main-color {
+    background-color: #3BB9FF;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+.main-text-color {
+	color: #e74c3c;
+}
+
+#projects-carousel .carousel-indicators li.active {
+    background-color: #e74c3c;
+}
+.feature {
+    margin-top: 3.25rem;
+}
+.feature a {
+	color: #e74c3c;
+}
+
+.home-header {
+    margin-top: 50vh;
+    margin-bottom: 5vh;
+}
+
+.home-navbar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*
+ * -------------------------------------------------------------------
+ *   Home Section
+ * -------------------------------------------------------------------
+ */
+
+#home {
+    text-align: center;
+    color: black;
+	height: 100vh;
+}
+#home-header {
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+}
+#home-image {
+    margin-bottom: 5vh;
+    font-size: 3rem;
+}
+#home-image a {
+    color: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#home-image a:hover,
+#home-image a:focus {
+    color: rgba(255, 255, 255, 0.5);
+}
+#home-header,
+#home-image {
+    opacity: 0;
+}
+/*
+ * -------------------------------------------------------------------
+ *   About Section
+ * -------------------------------------------------------------------
+ */
+
+#about {
+	margin-top: 40px;
+        padding-top: 2rem;
+        padding-bottom: 13rem;
+        background: white;
+        text-align: center;
+}
+#about-image {
+    fill: #e74c3c;
+}
+#about-image,
+#about-content {
+    opacity: 0;
+}
+
+/*
+ * -------------------------------------------------------------------
+ *   Skills Section
+ * -------------------------------------------------------------------
+ */
+
+#skills {
+    margin-top: 40px;
+    padding-top: 2rem;
+    padding-bottom: 13rem;
+    text-align: center;
+    background: #f7f8fa;
+}
+.skill-icon {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    width: 128px;
+    height: 128px;
+    fill: #e74c3c;
+}
+#skills-intro,
+#skills-1,
+#skills-2,
+#skills-3 {
+    opacity: 0;
+}
+/*
+ * -------------------------------------------------------------------
+ *   Projects Section
+ * -------------------------------------------------------------------
+ */
+
+#projects {
+    margin-top: 40px;
+    padding-top: 2rem;
+    padding-bottom: 13rem;
+    background: white;
+    text-align: center;
+}
+
+/*
+ * -------------------------------------------------------------------
+ *   Say Hello Section
+ * -------------------------------------------------------------------
+ */
+
+#sayHello {
+    margin-top: 40px;
+    padding-top: 2rem;
+    padding-bottom: 13rem;
+    background: #3BB9FF;
+    text-align: center;
+}
+/*
+ * -------------------------------------------------------------------
+ *   Footer Section
+ * -------------------------------------------------------------------
+ */
+
+#footer {
+    position: relative;
+    overflow: hidden;
+    padding-top: 5.5rem;
+    padding-bottom: 6.5rem;
+    color: white;
+    text-align: center;
+}
+#footer hr {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+#social-icons {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin-left: -1rem;
+}
+#social-icons li {
+    display: inline;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+#social-icons li a {
+    color: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#social-icons li a:hover,
+#social-icons li a:focus {
+    color: rgba(255, 255, 255, 0.5);
+}
+#footer-intro,
+#social-icons li,
+#footer-message {
+    opacity: 0;
+}
